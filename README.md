@@ -251,7 +251,14 @@ Content-Type: application/json
 
 ## Screenshots
 
-*Add your project screenshots here*
+### 1. Scanner Interface
+![Code Scanner Input Interface](CodeScanner_interface.png)
+
+### 2. Scan Results  
+![Code Scan Results](scan_results.png)
+
+### 3. Detailed Findings
+![Detailed Analysis](detailed_findings.png)
 
 ---
 
