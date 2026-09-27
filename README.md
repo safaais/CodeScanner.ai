@@ -76,42 +76,91 @@ All three capabilities are powered by OpenAI GPT-4o-mini, backed by a three-laye
 - Urgency tactic detection
 - Suggested action: Allow, Warn, or Block
 
----
-
 ## Screenshots
 
 ### Code Review
 
+<table>
+<tr>
+<td width="33%">
+
 **Clean code analysis**
 ![Code Review 1](screenshots/CodeReview01.png)
+Submits well-structured code and returns a high overall score with no critical issues.
+
+</td>
+<td width="33%">
 
 **Detailed issues and scores**
 ![Code Review 2](screenshots/CodeReview02.png)
+Breaks down each of the six scoring metrics alongside issues found, ranked by severity.
+
+</td>
+<td width="33%">
 
 **Recommendations**
 ![Code Review 3](screenshots/CodeReview03.png)
+Surfaces actionable suggestions and highlights best practices already followed.
+
+</td>
+</tr>
+</table>
 
 ### URL Security Scanner
 
+<table>
+<tr>
+<td width="25%">
+
 **Clean site (GitHub)**
 ![URL Scanning 1](screenshots/URLScanning01.png)
+A trusted domain passes all checks with a high security score.
+
+</td>
+<td width="25%">
 
 **Suspicious site detected**
 ![URL Scanning 2](screenshots/URLScanning02.png)
+A risky domain is flagged in real time on the live threat meter.
+
+</td>
+<td width="25%">
 
 **Detailed issues**
 ![URL Scanning 3](screenshots/URLScanning03.png)
+Lists specific findings, from missing HTTPS to suspicious TLDs and exposed headers.
+
+</td>
+<td width="25%">
 
 **Recommendations**
 ![URL Scanning 4](screenshots/URLScanning04.png)
+Provides clear next steps for remediating the flagged issues.
+
+</td>
+</tr>
+</table>
 
 ### AI Phishing Detection
 
+<table>
+<tr>
+<td width="50%">
+
 **Phishing detected (critical risk)**
 ![Phishing 1](screenshots/AiPhishing01.png)
+A spoofed login page is caught and assigned a critical risk score with a Block recommendation.
+
+</td>
+<td width="50%">
 
 **Detection details and indicators**
 ![Phishing 2](screenshots/AiPhishing02.png)
+Shows the exact indicators behind the verdict, including brand spoofing and urgency tactics.
+
+</td>
+</tr>
+</table>
 
 ---
 
